@@ -16,7 +16,7 @@ class Number:
     the new other number value added to it.
   """
   
-  __init__(self, value):
+  def __init__(self, value):
     """
     Parameters
     ----------
