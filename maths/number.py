@@ -26,7 +26,7 @@ class Number:
 
     self.value = value
 
-  def add(other):
+  def add(self,other):
     """
     Returns a new Number instance with self.value + other: number as the value
     
@@ -39,4 +39,8 @@ class Number:
     #return new Number(self.value + second)
     return self.value + other
 
-
+  def absolute(self):
+    if self.value > 0:
+      return self.value
+    else:
+      return -1 * self.value
